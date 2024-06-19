@@ -1,5 +1,4 @@
-import { acceptHMRUpdate, computed, ref, useUserStore } from '#imports';
-import { defineStore } from 'pinia';
+import {acceptHMRUpdate, computed, defineStore, ref, useUserStore} from '#imports'
 
 const useAuthStore = defineStore('auth', () => {
   const { setUser } = useUserStore();
